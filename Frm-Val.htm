@@ -5,17 +5,17 @@
      <meta name="viewport" content="width=device-width, intial-scale=1.0">
      <title>Form Validation</title>
      <link rel="stylesheet" type="text/css" href="css/style-reg.css">
-     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
      <script src="Js/jquery.js"></script>
      <script src="Js/valid.js"></script>
 </head>
 <body>
-     <!----------------------------CONTENT STARTS------------------------------------->
+     <!---CONTENT STARTS-->
      <div class="reg">
-        <form name="validateform" action="#" method="post" >
+        <form name="validateform" action="#" method="post">
           <div class="re">
               <h1>Register</h1>
-              <h5><a>*</a>&nbsp Required Fields</h5>
+              <h5><a>*</a>Required Fields</h5>
               <div class="refull">
                  <div  class="sp">
                      <div>
@@ -38,20 +38,8 @@
                          <h3>Password<a>*</a></h3>
                      </div>
                      <div>
-                         <div class="forp">
-                             <div class="lim">
-                                <ul>
-                                   <p>A password must contain the following:</p>
-                                   <li><p>Minimum of 8 characters</p></li>
-                                   <li><p>One or more uppercase letter</p></li>
-                                   <li><p>One or more lowercase letter</p></li>
-                                   <li><p>One or more number or special character</p></li>
-                                </ul>
-                             </div>
-                         </div>
-                         <div>
                              <input type="text" name="pass" id="password">
-                         </div>
+                         
                      </div>
                  </div>
                  <div  class="sp">
@@ -72,7 +60,7 @@
                  </div>
                  <div  class="sp">
                      <div>
-                         <label for="gen"><h3>Gender<a>*</a></h3></label>
+                         <h3><label for="gen">Gender<a>*</a></label></h3>
                      </div>
                      <div>
                          <select id="gen" name="gen">
@@ -93,11 +81,11 @@
                  </div>
                  <div class="ncc">
                        <button type="submit" id ="submit" class="rgbtn">Submit</button>
-                   </div>
+                 </div>
               </div>
           </div>
         </form>
      </div>
-     <!-----------------------------CONTENT ENDS-------------------------------------->
+     <!---CONTENT ENDS-->
 </body>
 </html>
